@@ -42,3 +42,12 @@ or refuse to run without root — safe to explore on any machine.
 ## CI
 
 `.github/workflows/ci.yml` runs `bash tests/test.sh` on every push.
+
+## Evidence (real run, Debian 13 server)
+
+![sysinfo](docs/screenshots/shot-sysinfo.png)
+![health-check](docs/screenshots/shot-health-check.png)
+![backup-verify](docs/screenshots/shot-backup-verify.png)
+![useradd](docs/screenshots/shot-useradd-dryrun.png)
+![http-monitor](docs/screenshots/shot-http-monitor.png)
+![logwatch](docs/screenshots/shot-logwatch.png)
